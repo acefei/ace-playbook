@@ -45,6 +45,17 @@ else
     echo $host >> $production
 fi
 
+# create group_vars
+group_vars=$pb_name/group_vars
+group_vars_all=$pb_name/group_vars/all
+mkdir -p $group_vars
+[ -f $group_vars_all ] && ${group_vars_all}.bak
+cat > $group_vars_all<<CAT
+proxy_env:
+  http_proxy: http://proxy.example.com:8080
+  https_proxy: https://proxy.example.com:8080
+CAT
+
 echo
 echo ">>>>> Playbook Template created as below:"
 find $pb_name -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'

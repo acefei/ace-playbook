@@ -1,0 +1,5 @@
+---
+- name: pip install jupyter
+  pip:
+      name: jupyter
+  environment: "{{ proxy_env }}"
