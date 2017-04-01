@@ -32,4 +32,4 @@ ace_playbook
 ```
 
 # Usage
-please refer to http://docs.ansible.com/ansible/playbooks_best_practices.html#what-this-organization-enables-examples
+Please refer to http://docs.ansible.com/ansible/playbooks_best_practices.html#what-this-organization-enables-examples
