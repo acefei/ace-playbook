@@ -1,8 +1,9 @@
 ---
 - name: ace_playbook
-  host: 
+  hosts: localhost
 
   roles:
     - common
     - git
     - jupyter
+    - python

@@ -1,0 +1,10 @@
+---
+# run "ansible-doc yum" to view the usage.
+- name: install the development tools package
+  become: yes
+  yum:
+    name: "@Development tools"
+    state: present
+  when: 
+    - ansible_distribution == "CentOS"
+    - ansible_distribution_major_version == "7"

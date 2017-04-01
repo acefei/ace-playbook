@@ -1,0 +1,3 @@
+# About the sample, please refer to /etc/ansible/hosts.
+localhost ansible_connection=local
+bbb
