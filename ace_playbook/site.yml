@@ -1,0 +1,8 @@
+---
+- name: ace_playbook
+  host: 
+
+  roles:
+    - common
+    - git
+    - jupyter
