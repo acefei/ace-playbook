@@ -35,7 +35,14 @@ ace_playbook
 ```
 
 # Usage
-Please refer to http://docs.ansible.com/ansible/playbooks_best_practices.html#what-this-organization-enables-examples
+```
+# Dry run
+$ ansible-playbook -i production site.yml --check -v
+
+# Run
+$ ansible-playbook -i production site.yml
+```
+The more refer to http://docs.ansible.com/ansible/playbooks_best_practices.html#what-this-organization-enables-examples
 
 # Bugs
 I found there're some bugs with the latest ansible, so I recommended to use ansible version base on 2.1.x.x
