@@ -38,4 +38,4 @@ ace_playbook
 Please refer to http://docs.ansible.com/ansible/playbooks_best_practices.html#what-this-organization-enables-examples
 
 # Bugs
-I found there are some bugs with the latest ansible, so I recommended to use ansible==2.1.x.x
+I found there're some bugs with the latest ansible, so I recommended to use ansible==2.1.x.x
