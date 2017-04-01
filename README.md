@@ -1,5 +1,5 @@
 # ace-playbook
-An ansible playbook to deploy development environment automatically
+An [ansible](https://github.com/ansible/ansible) playbook to deploy development environment automatically
 
 # Playbook
 It is recommended to look at [Example Playbooks](https://github.com/ansible/ansible-examples) while reading along with the [playbook documentation](http://docs.ansible.com/ansible/playbooks.html#playbooks). 
