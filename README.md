@@ -1,8 +1,8 @@
 # ace-playbook
 An ansible playbook to deploy development environment automatically
 
-# [Playbook](http://docs.ansible.com/ansible/playbooks.html#playbooks)
-It is recommended to look at [Example Playbooks](https://github.com/ansible/ansible-examples) while reading along with the playbook documentation. 
+# Playbook
+It is recommended to look at [Example Playbooks](https://github.com/ansible/ansible-examples) while reading along with the [playbook documentation](http://docs.ansible.com/ansible/playbooks.html#playbooks). 
 
 # About the create_ansible_playbook_template.sh
 It's used to create a simple directory layout following the rule of [playbooks_best_practices](http://docs.ansible.com/ansible/playbooks_best_practices.html)
